@@ -1,0 +1,5 @@
+uselss_now/
+buildLinux/
+buildWin/
+
+*.o

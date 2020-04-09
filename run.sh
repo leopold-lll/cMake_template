@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./buildLinux/executable
+
