@@ -1,14 +1,19 @@
+# usefull guide to cmake: https://www.youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s
 cmake_minimum_required(VERSION 3.10)
 
 # Configuration
-project(CMake_template)			#set project name (is it useless???)
-enable_language(CXX) 			#set the language as c++
-set(CMAKE_CXX_STANDARD 11)		#project standard
-# set(CMAKE_CXX_FLAGS "-O3")	#enable optimization lvl3 (windows does not know it)
+project(CMake_template VERSION 1.0)	#set project name (is it useless???)
+enable_language(CXX) 				#set the language as c++
+set(CMAKE_CXX_STANDARD 11)			#project standard
+# set(CMAKE_CXX_FLAGS "-O3")		#enable optimization lvl3 (windows does not know it)
 
 # Requirements
 # find_package(OpenCV REQUIRED)
 # target_link_libraries( CMake_template ${OpenCV_LIBS} )
+
+# Add Submodule -> check out: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+# include(externalLibs/CMakeLists.txt)
+# add_subdirectory(externalLibs/c_printer)
 
 
 # Create alias
