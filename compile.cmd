@@ -1,11 +1,11 @@
 @ECHO OFF
 
 ::batch comments :D
-::remove the old build dir (is it useless???)
+::do not remove the old build dir, because it also contain the submodule compiled
 ::rmdir /s buildWin
 
 :: create the new dir
-mkdir buildWin 
+::mkdir buildWin 
 cd buildWin 
 
 

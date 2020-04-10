@@ -3,7 +3,7 @@
 if [[ -d buildLinux ]] 
 then
 	echo ""
-	echo "Is it efficient to remove the build folder each time???"
+	echo "The buildLinux is not removed because it contain the submodule compiled."
 	echo ""
 	#rm -rf buildLinux
 else

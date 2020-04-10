@@ -1,7 +1,7 @@
 #include <pippo.hh>
 #include <iostream>
-// #include <CPrinter>
-#include <printer.hh>
+
+#include <printer.hh>	//part of the Cprinter library
 
 using std::cout; using std::endl;
 
