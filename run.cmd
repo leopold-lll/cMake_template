@@ -1,5 +1,6 @@
 @ECHO OFF
 
 ::Run the executable
-.\buildWin\Debug\executable.exe
+.\buildWin\Debug\main_executable.exe
+.\buildWin\Debug\cv_executable.exe  input\lena.jpg
 

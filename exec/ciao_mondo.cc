@@ -1,6 +1,5 @@
 #include <pippo.hh>
 #include <iostream>
-
 #include <printer.hh>	//part of the Cprinter library
 
 using std::cout; using std::endl;

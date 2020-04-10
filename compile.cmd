@@ -5,7 +5,7 @@
 ::rmdir /s buildWin
 
 :: create the new dir
-::mkdir buildWin 
+mkdir buildWin 
 cd buildWin 
 
 
