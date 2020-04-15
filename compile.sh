@@ -3,17 +3,18 @@
 if [[ -d buildLinux ]] 
 then
 	echo ""
-	echo "The buildLinux is not removed because it contain the submodule compiled."
+	echo "The buildLinux folder is not removed because it contain also the submodule compiled."
 	echo ""
 	#rm -rf buildLinux
 fi
 
+cd build
 mkdir buildLinux 
 cd buildLinux 
-cmake ../
+cmake ../../
 make
 
-cd ..
+cd .. && cd ..
 echo "Executable:"
 echo ""
 ./run.sh
