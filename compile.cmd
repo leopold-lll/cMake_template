@@ -2,12 +2,11 @@
 
 ::batch comments :D
 
-
+::do not remove the old build dir, because it also contain the submodule compiled (rmdir /s build)
 :: create the new dir
+mkdir build
 cd build
 
-::do not remove the old build dir, because it also contain the submodule compiled
-::rmdir /s buildWin
 mkdir buildWin
 cd buildWin
 

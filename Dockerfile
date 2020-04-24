@@ -1,7 +1,5 @@
 FROM leopoldlll/opencv4
-
 WORKDIR /templateDocker
-
 COPY .  /templateDocker
 
 
@@ -9,7 +7,7 @@ COPY .  /templateDocker
 RUN chmod +x compile.sh
 RUN ./compile.sh
 
-CMD chmod +x run.sh
+RUN chmod +x run.sh
 CMD ./run.sh
 
 # Equivalent to the above two rows.
