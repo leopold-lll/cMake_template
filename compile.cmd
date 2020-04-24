@@ -22,9 +22,4 @@ cmake --build . --config Debug
 ::cmake --build . --config Debug --target name
 
 cd.. && cd..
-echo Executable:
-echo.
-
-::Run the executable
-::.\run.cmd
 

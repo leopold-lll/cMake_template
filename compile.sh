@@ -15,7 +15,4 @@ cmake ../../
 make
 
 cd .. && cd ..
-echo "Executable:"
-echo ""
-./run.sh
 
