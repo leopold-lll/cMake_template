@@ -16,4 +16,5 @@ class Pippo{
         void quo();
 };
 
+void pluto();
 // #endif

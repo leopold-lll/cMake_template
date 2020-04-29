@@ -13,16 +13,15 @@ using namespace cv;
 // One "X server" could be Xming, in addition it need to be activated with the command $export DISPLAY=0:0
 // The command can be automatically executed if written in the file "/home/stefano/.bash_profile"
 
-int main(int argc, char** argv ){
+int main(int argc, char** argv){
 	std::cout << "Test OpenCV with CMake\n\n\n";
 
     if ( argc != 2 ){
         printf("usage: DisplayImage.out <Image_Path>\n");
         return -1;
     }
-
-    Mat image;
-    image = imread( argv[1], 1 );
+    
+    Mat image = imread( argv[1], 1 );
 
     if ( !image.data ){
         printf("No image data \n");

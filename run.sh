@@ -1,5 +1,6 @@
 #!/bin/bash
 
-./build/buildLinux/main_executable
-./build/buildLinux/cv_executable input/lena.jpg
+./build/buildLinux/helloWorld
+#./build/buildLinux/imgDisplay input/lena.jpg
+./build/buildLinux/imgDisplayV2 input/lena.jpg
 
